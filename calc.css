@@ -1,0 +1,17 @@
+
+.calc{
+    
+   max-width: 325px;
+    padding: 20px;
+    border: 0px solid #333;
+    height: auto;
+    margin: auto;
+    background-color: #e84949;
+    
+}
+
+.inputrow{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}

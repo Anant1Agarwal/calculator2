@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anant's Calculator</title>
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+   
+    <p>my Calculator</p>
+    <div class="calc">
+      <div class="header">
+        <span class="title">Calc</span>
+        <span class="toggle">toggle buttons</span>
+      </div>
+
+      <div id="calc_display">display here</div>
+      <div class="input">
+        <ul class="inputrow">
+          <button class="digit" value="7">7</button>
+          <button class="digit" value="8">8</button>
+          <button class="digit" value="9">9</button>
+          <button id="delete" value="delete">DEL</button>
+        </ul>
+        <ul class="inputrow">
+          <button class="digit" value="4">4</button>
+          <button class="digit" value="5">5</button>
+          <button class="digit" value="6">6</button>
+          <button class="operator" value="+">+</button>
+        </ul>
+        <ul class="inputrow">
+          <button class="digit" value="1">1</button>
+          <button class="digit" value="2">2</button>
+          <button class="digit" value="3">3</button>
+          <button class="operator" value="-">-</button>
+        </ul>
+        <ul class="inputrow">
+          <button class="digit" value=".">.</button>
+          <button class="digit" value="0">0</button>
+          <button class="digit" value="/">/</button>
+          <button class="operator" value="*">X</button>
+        </ul>
+
+        <ul class="inputrow">
+          <button value="RESET">RESET</button>
+          <button value="equal">=</button>
+        </ul>
+      </div>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
