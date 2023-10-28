@@ -24,9 +24,10 @@ buttons.forEach((button) => {
     if (value === "equal") {
       if (currentOperator && currentValue) {
         currentValue = eval(currentValue);
+        
         display.textContent = currentValue;
+        currentValue=currentValue.toString();
         currentOperator="";
-        currentValue="";
         console.log("value is"+value)
         console.log("current value is" +currentValue)
       }
